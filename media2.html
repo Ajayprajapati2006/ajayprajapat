@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .lg1{
+            display: none;
+        }
+        .md1{
+            display: none;
+        }
+        .sm1{
+            display: block;
+        }
+        @media screen and (min-width: 576px){
+          .sm1{
+            display: none;
+          }
+        }
+        @media screen and (min-width: 768px){
+           .md1{
+            display: block;
+           }
+        }
+        @media screen and (min-width: 992px){
+           .lg1{
+            display: block;
+           }
+           .md1{
+            display: none;
+           }
+        }
+        @media screen and (min-width: 1200px){
+
+        }
+    </style>
+</head>
+<body>
+    <div class="lg1">
+        <div style="background-color: aqua;">
+            COPO
+        </div>
+        
+        <div>
+            <div style="background-color: crimson;">
+                ui
+            </div>
+            <div>
+                <center>--</center>
+            </div>
+            <div style="background-color: darkgreen;">
+                ux
+            </div>
+            <div style="background-color: fuchsia;">design</div>
+        </div>
+    </div>
+
+
+    <div class="md1">
+        <div>
+             <center style="background-color: lawngreen;">
+                IT department 1
+             </center>
+        </div>
+        <div style="display: flex;">
+            
+            <div style="background-color: coral; width: 50%;">
+                <center>
+                    op1
+                </center>
+            </div>
+            <div style="background-color: gold; width: 50%">
+                <center>
+                    po2
+                </center>
+            </div>
+        </div>
+        <div>
+            <center style="background-color: grey;">
+                Nobody 1
+            </center>
+        </div>
+        <div style="background-color: cornflowerblue;">
+            <center>
+                space 2
+            </center>
+        </div>
+    </div>
+
+    <div class="sm1">
+        <div>
+             <center style="background-color: lawngreen;">
+                IT department 2
+             </center>
+        </div>
+        <div style="display: flex;">
+            
+            <div style="background-color: coral; width: 50%;">
+                <center>
+                    op
+                </center>
+            </div>
+            <div style="background-color: gold; width: 50%">
+                <center>
+                    po
+                </center>
+            </div>
+        </div>
+        <div>
+            <center style="background-color: grey;">
+                Nobody
+            </center>
+        </div>
+        <div style="background-color: cornflowerblue;">
+            <center>
+                space
+            </center>
+        </div>
+    </div>
+</body>
+</html>

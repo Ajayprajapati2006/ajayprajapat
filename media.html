@@ -1,11 +1,122 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <style>
+        .jaya {
+            background-color: red
+        }
+
+        .kiran {
+            color: coral;
+        }
+        .kumar{
+            display: block;
+        }
+        .large{
+            display: none;
+        }
+        .infosys {
+            content:url("infosys.png")
+        }
+
+        @media screen and (min-width: 576px) {
+            .jaya {
+                background-color: chartreuse;
+            }
+
+            .kiran {
+                color: rgb(16, 82, 189);
+            }
+            .kumar{
+                display: none;
+            }
+            .large{
+                display: none;
+            }
+            .infosys {
+                content:url("para\ sf.jpeg")
+            }
+        }
+
+        @media screen and (min-width: 768px) {
+            .jaya {
+                background-color: rgb(134, 30, 179);
+            }
+
+            .kiran {
+                color: rgb(232, 82, 27);
+            }
+            .large{
+                display: none;
+            }
+            .infosys {
+                content:url("master\ logo\ png.png")
+            }
+            
+        }
+
+        @media screen and (min-width: 992px) {
+            .jaya {
+                background-color: rgb(83, 61, 62);
+            }
+
+            .kiran {
+                color: rgb(31, 242, 228);
+            }
+            .large{
+                display: none;
+            }
+            .infosys {
+                content:url("VISA\ Png.jpeg")
+            }
+            
+        }
+
+        @media screen and (min-width: 1200px) {
+            .jaya {
+                background-color: rgb(141, 129, 129);
+            }
+
+            .kiran {
+                color: rgb(228, 212, 28);
+            }
+            .large{
+                display: block;
+            }
+            
+            .infosys {
+                content:url("VISA\ Png.jpeg")
+            }
+        }
+    </style>
 </head>
-<body>
-    <h1>media</h1>
+
+<body class="jaya">
+    <div class="kiran">
+        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Rem voluptatibus veritatis voluptates ullam quae animi
+        sapiente atque eos deleniti impedit, quis architecto at cum aliquam quia? Inventore consectetur eos rem!
+        
+    </div>
+    <div class="kumar">
+        ajay prajapat
+        
+    </div>
+    <div class="large">
+        <!-- <img src="hero section.jpg" alt=" hero section"> -->
+
+    </div>
+    <div>
+        <img  class="infosys">
+        
+    </div>
+    
+    
+
+
 </body>
+
 </html>

@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .lg{
+            display: none;
+        }
+        .md{
+            display: none;
+        }
+        .sm{
+            display: block;
+        }
+        @media screen and (min-width: 576px){
+          .sm{
+            display: none;
+          }
+        }
+        @media screen and (min-width: 768px){
+           .md{
+            display: block;
+           }
+        }
+        @media screen and (min-width: 992px){
+           .lg{
+            display: block;
+           }
+           .md{
+            display: none;
+           }
+        }
+        @media screen and (min-width: 1200px){
+
+        }
+    </style>
+</head>
+
+<body>
+    <div class="lg">
+        <div style="display: flex;">
+            <div style="background-color: aqua;">
+                os
+            </div>
+            <div style="background-color: brown;">
+                op
+            </div>
+        </div>
+        <div>
+            <div style="display: flex;">
+
+                <div>1</div>
+                <div>2</div>
+                <div>3</div>
+                <div>4</div>
+            </div>
+            <div style="display: flex;">
+                <div>5</div>
+                <div>6</div>
+                <div>7</div>
+                <div>8</div>
+            </div>
+        </div>
+    </div>
+    <div class="md">
+        <div style="display: flex;">
+            <div>
+                pk
+            </div>
+            <div>
+                kp
+            </div>
+        </div>
+        <div>
+            <div style="display: flex;">
+                <div>1</div>
+                <div>2</div>
+                <div>3</div>
+            </div>
+            <div style="display: flex;">
+                <div>4</div>
+                <div>5</div>
+                <div>6</div>
+            </div>
+            
+        </div>
+        <div style="display: flex;">
+            <div>
+                jflkv
+            </div>
+            <div>
+                fnuinv
+            </div>
+            <div>
+                fjnijfng
+            </div>
+        </div>
+    </div>
+    <div class="sm">
+        <div style="display: flex;">
+            <div>
+                1
+            </div>
+            <div>
+                2
+            </div>
+        </div>
+        <div>
+            <div style="display: flex;">
+                <div>
+                    eat
+                </div>
+                <div>
+                    sleep
+                </div>
+
+            </div>
+            <div style="display: flex;">
+                <div>
+                    reapat
+                </div>
+                <div>
+                    ios
+                </div>
+            </div>
+
+        </div>
+        <div>
+
+            <div>apk</div>
+        </div>
+    </div>
+</body>
+
+</html>
+
